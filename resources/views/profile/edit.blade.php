@@ -45,9 +45,9 @@
                 </div>
             </form>
 
-            {{-- <div class="text-center">
+            <div class="text-center">
                 <a href="{{ route('profile.view') }}" class="btn btn-secondary btn-sm">Back to Profile</a>
-            </div> --}}
+            </div>
         </div>
     </div>
 
