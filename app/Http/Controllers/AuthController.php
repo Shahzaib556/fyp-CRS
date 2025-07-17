@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\User;
@@ -77,4 +76,3 @@ class AuthController extends Controller
             : back()->withErrors(['email' => __($status)]);
     }
 }
-

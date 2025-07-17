@@ -48,4 +48,3 @@ class ProfileController extends Controller
         return redirect()->route('profile.view')->with('success', 'Profile updated successfully.');
     }
 }
-
